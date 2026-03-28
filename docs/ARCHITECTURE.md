@@ -277,8 +277,8 @@ def calculate_sha256(path: Path) -> bytes:
 
 ### Фаза 0: Подготовка (1-2 недели)
 
-- [ ] Настроить `pyproject.toml` с зависимостями: `aiofiles`, `aiosqlite`, `pydantic`, `fastapi`, `pyqt6`
-- [ ] Создать базовую структуру проекта
+- [x] Настроить `pyproject.toml` с зависимостями: `aiofiles`, `aiosqlite`, `pydantic`, `fastapi`, `pyqt6`
+- [x] Создать базовую структуру проекта
 - [ ] Реализовать `hashing.py` с async-поддержкой
 
 ### Фаза 1: Ядро (2-3 недели)
